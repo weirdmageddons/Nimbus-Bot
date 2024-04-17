@@ -1,34 +1,34 @@
 
 #### Methods
-* `getLocal() ` : Returns bot local information
-* `getWorld() ` : Returns bot world information
-* `getInventory() ` : Returns bot's inventory list
-* `connect() ` : Connects bot to server
-* `disconnect() ` : Disconnects bot from server
-* `hasAccess(x: [number], y: [number]) ` : Returns true if bot has access in spesific tile
-* `sendRaw(packet: [TankPacket]) ` | `sendPacketRaw(packet: [TankPacket])` | `sendRawPacket(packet: [TankPacket])` : Sends tank packet
-* `sendPacketRaw(packet: [TankPacket]) ` : Sends tank packet
-* `sendPacket(packet: [text]) ` : Sends text packet
-* `warp(world_name: [text], door_id: [text]) ` : Warps world (door_id is optional)
-* `say(message: [text]) ` : Sends a message to world
-* `wear(itemID: [number]) ` : Wears an item if bot isn't wearing
-* `unwear(itemID: [number]) ` : Unwears an item if bot is wearing
-* `drop(itemID: [number], count: [number]) ` : Drops item (count is optional)
-* `trash(itemID: [number], count: [number]) ` : Trashs item (count is optional)
-* `buy(storeID: [text]) ` : Buys item from store with storeID
-* `sleep(millisecond: [number]) ` : Delay
-* `print(log: [text]) ` : Log to application console
-* `place(x: [number], y: [number, itemID: [number]) ` : Places block if its valid
-* `punch(x: [number], y: [number) ` : Hits to tile
-* `wrenchPlayer(netid: [number]) ` : Wrenchs to player by netid
-* `enter() ` : Enters the door, if there is door
-* `findPath(x: [number], y: [number) ` : Finds tile path and moves to destination
-* `collect(range: [number]) ` : Collect all objects by range
+* `getLocal()` : Returns bot local information
+* `getWorld()` : Returns bot world information
+* `getInventory()` : Returns bot's inventory list
+* `connect()` : Connects bot to server
+* `disconnect()` : Disconnects bot from server
+* `hasAccess(x: [number], y: [number])` : Returns true if bot has access in spesific tile
+* `sendRaw(packet: [TankPacket])` | `sendPacketRaw(packet: [TankPacket])` | `sendRawPacket(packet: [TankPacket])` : Sends tank packet
+* `sendPacketRaw(packet: [TankPacket])` : Sends tank packet
+* `sendPacket(packet: [text])` : Sends text packet
+* `warp(world_name: [text], door_id: [text])` : Warps world (door_id is optional)
+* `say(message: [text])` : Sends a message to world
+* `wear(itemID: [number])` : Wears an item if bot isn't wearing
+* `unwear(itemID: [number])` : Unwears an item if bot is wearing
+* `drop(itemID: [number], count: [number])` : Drops item (count is optional)
+* `trash(itemID: [number], count: [number])` : Trashs item (count is optional)
+* `buy(storeID: [text])` : Buys item from store with storeID
+* `sleep(millisecond: [number])` : Delay
+* `print(log: [text])` : Log to application console
+* `place(x: [number], y: [number, itemID: [number])` : Places block if its valid
+* `punch(x: [number], y: [number)` : Hits to tile
+* `wrenchPlayer(netid: [number])` : Wrenchs to player by netid
+* `enter()` : Enters the door, if there is door
+* `findPath(x: [number], y: [number)` : Finds tile path and moves to destination
+* `collect(range: [number])` : Collect all objects by range
 * `isInWorld(world_name: [text])` : Returns true if bot is in a world (world_name is optional)
-* `isInTile(x: [number], y: [number]) ` : Returns true if the bot is in the tile
+* `isInTile(x: [number], y: [number])` : Returns true if the bot is in the tile
 * `setSkin(skinID: [text])` : Sets skin by skinID: Example: `setSkin("3370516479")`
-* `isWearing(itemID: [number]) ` : Returns true if bot wears item
-* `getInfo(itemID: [number]) ` : Returns item info by itemID
+* `isWearing(itemID: [number])` : Returns true if bot wears item
+* `getInfo(itemID: [number])` : Returns item info by itemID
 
 
 ## Local Info
