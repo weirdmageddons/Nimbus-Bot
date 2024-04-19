@@ -9,7 +9,7 @@
 * `sendRaw(packet: [TankPacket])` | `sendPacketRaw(packet: [TankPacket])` | `sendRawPacket(packet: [TankPacket])` : Sends tank packet
 * `sendPacketRaw(packet: [TankPacket])` : Sends tank packet
 * `sendPacket(packet: [text])` : Sends text packet
-* `warp(world_name: [text], door_id: [text])` : Warps world (door_id is optional)
+* `warp(world_name: [text])` : Warps world
 * `say(message: [text])` : Sends a message to world
 * `wear(itemID: [number])` : Wears an item if bot isn't wearing
 * `unwear(itemID: [number])` : Unwears an item if bot is wearing
