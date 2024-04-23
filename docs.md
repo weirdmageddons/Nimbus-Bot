@@ -30,6 +30,9 @@
 * `isWearing(itemID: [number])` : Returns true if bot wears item
 * `getInfo(itemID: [number])` : Returns item info by itemID
 
+#### Proxy Manager
+* `addProxy(socks: [text])` : Adds socks5 proxy to proxy list. Type[ip:port:username:password]
+* `removeProxy(socks: [text])` : Removes socks5 proxy to proxy list. Type[ip:port:username:password]
 
 ## Local Info
 * `name`
